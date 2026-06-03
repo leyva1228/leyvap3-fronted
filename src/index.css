@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "./animations.css";
+
+@theme {
+  --color-navy-50: #f0f4f8;
+  --color-navy-100: #d9e2ec;
+  --color-navy-200: #bcccdc;
+  --color-navy-300: #9fb3c8;
+  --color-navy-400: #627d98;
+  --color-navy-500: #486581;
+  --color-navy-600: #334e68;
+  --color-navy-700: #243b53;
+  --color-navy-800: #1b2a4a;
+  --color-navy-900: #0a1628;
+
+  --color-orangered-50: #fff5f0;
+  --color-orangered-100: #ffe8d9;
+  --color-orangered-200: #ffc7b3;
+  --color-orangered-300: #ffa68c;
+  --color-orangered-400: #ff8566;
+  --color-orangered-500: #ff4500;
+  --color-orangered-600: #e63e00;
+  --color-orangered-700: #cc3700;
+  --color-orangered-800: #a32e00;
+  --color-orangered-900: #7a2200;
+}
