@@ -62,6 +62,10 @@ const EquipoForm = ({ tipos, onSubmit, initialData, onCancelEdit }) => {
     setSubmitting(true);
     try {
       await onSubmit(form);
+      if (!initialData) {
+        setForm({ ...emptyForm });
+        setPreview(null);
+      }
     } finally {
       setSubmitting(false);
     }
