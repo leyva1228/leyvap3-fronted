@@ -1,16 +1,36 @@
-# React + Vite
+# LeyvaP3 - Frontend (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Práctica Calificada N°3 — Desarrollo de Aplicaciones Empresariales**
 
-Currently, two official plugins are available:
+| | |
+|---|---|
+| **Institución** | Instituto Privado TECSUP Trujillo — Campus Norte |
+| **Carrera** | C-24 Diseño y Desarrollo de Software |
+| **Ciclo** | 4to ciclo — 2026 |
+| **Curso** | Desarrollo de Aplicaciones Empresariales |
+| **Tema** | Sistema de Inventario de Laboratorio |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Descripción
 
-## React Compiler
+Aplicación web frontend desarrollada con **React + Vite** que consume una API REST construida en **Django Rest Framework** (backend). El sistema permite gestionar un inventario de laboratorio con dos tablas relacionadas (equipos y categorías), incluyendo operaciones CRUD completas y carga/visualización de imágenes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Stack
 
-## Expanding the ESLint configuration
+- **React 19** con Vite
+- **Tailwind CSS** para el diseño de interfaz
+- Consume API REST del backend en **Django + DRF**
+- Base de datos **PostgreSQL** alojada en **Render** (backend)
+- Frontend desplegado en **Vercel**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+- CRUD completo de equipos de laboratorio
+- CRUD completo de categorías
+- Carga y visualización de imágenes por equipo
+- Formularios con validación
+- Interfaz responsive con Tailwind CSS
+
+## Enlaces
+
+- **Frontend (Vercel):** https://leyvap3-frontend.vercel.app
+- **Backend (Render):** https://leyvap3-backend.onrender.com
