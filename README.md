@@ -20,6 +20,7 @@ Aplicación web frontend desarrollada con **React + Vite** que consume una API R
 - **Tailwind CSS** para el diseño de interfaz
 - Consume API REST del backend en **Django + DRF**
 - Base de datos **PostgreSQL** alojada en **Render** (backend)
+- Imágenes alojadas en **Cloudinary**
 - Frontend desplegado en **Vercel**
 
 ## Funcionalidades
